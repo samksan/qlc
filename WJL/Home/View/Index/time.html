@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>七乐彩走势图杀号</title>
+<link rel="stylesheet" href="">
+<style type="text/css">
+h1 {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<?php
+    //获取时间
+    //get timestamp + 12 hours
+    $date = strtotime('+12 hours');
+
+    
+    //format date
+    $cDate = date("Y-m-d H:i:s",$date);
+?>
+
+	<h1>
+		现在的时间：
+		<?php echo $cDate;?>
+	</h1>
+</body>
+</html>
