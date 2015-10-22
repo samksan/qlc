@@ -10,54 +10,13 @@ class IndexController extends Controller {
         echo 'Moudle: Home'.'<br />';
         echo 'Controller: Index'.'<br />';
         echo 'Action: index'.'<br />';
-        echo 'Vendor: '.VENDOR_PATH;
         
-        $link['index'] = U('Home/Index/index','',true,true);
-        $link['chart'] = U('Home/Chart/index','',true,true);
-        $link['quickstart'] = U('Home/Quickstart/index','',true,true);
-        $link['analysis'] = U('Home/Analysis/index','',true,true);
-        $link['testing'] = U('Home/Testing/index','',true,true);
+        $links = getAddress();
         
-        $this->assign('address',$link);
+        $this->assign('address',$links);
         $this->display();
-    }
-            
-    /**
-     * 使用流程
-     * @return null null
-     */
-    public function quickstart(){
-        echo 'Moudle: Home'.'<br />';
-        echo 'Controller: Index'.'<br />';
-        echo 'Action: quickstart'.'<br />';
-        
-        $this->display();
-    }
+    }            
     
-    /**
-     * 概率测试
-     * @return null null
-     */
-    public function testing(){
-        echo 'Moudle: Home'.'<br />';
-        echo 'Controller: Index'.'<br />';
-        echo 'Action: testing'.'<br />';
-        
-        $this->display();
-    }
-    
-    /**
-     * 分析计算
-     * @return null null
-     */
-    public function analysis(){
-        echo 'Moudle: Home'.'<br />';
-        echo 'Controller: Index'.'<br />';
-        echo 'Action: analysis'.'<br />';
-        
-        $this->display();
-    }
-
     /**
      * 更新开奖号码
      * 从360彩票网获取数据，把数据替换到表 think.qlc_kjh 的数据
