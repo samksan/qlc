@@ -12,31 +12,16 @@ class IndexController extends Controller {
         echo 'Action: index'.'<br />';
         echo 'Vendor: '.VENDOR_PATH;
         
-
-        // 循环输出二维数组
-        foreach ($result as $key => $value) {
-            echo '<span>';
-            echo '期号：';
-            foreach ($value as $v) {
-                echo $v . ' ';
-            }
-            echo '</span>';
-            echo '<br />';
-        }
-    }
-    
-    /**
-     * 走势图
-     * @return null null
-     */
-    public function chart(){
-        echo 'Moudle: Home'.'<br />';
-        echo 'Controller: Index'.'<br />';
-        echo 'Action: chart'.'<br />';
+        $link['index'] = U('Home/Index/index','',true,true);
+        $link['chart'] = U('Home/Chart/index','',true,true);
+        $link['quickstart'] = U('Home/Quickstart/index','',true,true);
+        $link['analysis'] = U('Home/Analysis/index','',true,true);
+        $link['testing'] = U('Home/Testing/index','',true,true);
         
+        $this->assign('address',$link);
         $this->display();
     }
-    
+            
     /**
      * 使用流程
      * @return null null
