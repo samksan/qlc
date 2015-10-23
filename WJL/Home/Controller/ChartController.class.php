@@ -16,10 +16,9 @@ class ChartController extends Controller{
         $result = $kjh->select();
         
         // 开奖号码经过处理返回表格形式的数组
-        
-        $this->assign('kjh',numbersFormat($result));
-        
-//         dump($result);
+        $d = numbersFormat($result);
+
+        $this->assign('kjh',$d);
         $this->display();
     }
 }
