@@ -13,7 +13,7 @@ class ChartController extends Controller{
         
         // 开奖数据
         $kjh = M('kjh');
-        $result = $kjh->limit($nums)->select();
+        $result = $kjh->limit($nums)->order('qh DESC')->select();
         $result = array_reverse($result);
         
         // 开奖号码经过处理返回表格形式的数组

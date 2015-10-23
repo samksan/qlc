@@ -8,22 +8,22 @@
     <title>Home | Corlate</title>
 	
 	<!-- core CSS -->
-    <link href="<?php echo C('CSS_URL'); ?>bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>animate.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>main.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>responsive.css" rel="stylesheet">
+    <link href="/qlc/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/animate.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/qlc/Public/css/main.css" rel="stylesheet">
+    <link href="/qlc/Public/css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="<?php echo C('JS_URL'); ?>html5shiv.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>respond.min.js"></script>
+    <script src="/qlc/Public/js/html5shiv.js"></script>
+    <script src="/qlc/Public/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="<?php echo C('IMG_URL'); ?>ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/qlc/Public/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/qlc/Public/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/qlc/Public/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/qlc/Public/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/qlc/Public/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body class="homepage">
@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo C('IMG_URL'); ?>logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="/qlc/Public/images/logo.png" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
@@ -67,7 +67,7 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(<?php echo C('IMG_URL'); ?>slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(/qlc/Public/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -80,7 +80,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo C('IMG_URL'); ?>slider/img1.png" class="img-responsive">
+                                    <img src="/qlc/Public/images/slider/img1.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -88,7 +88,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(<?php echo C('IMG_URL'); ?>slider/bg2.png)">
+                <div class="item" style="background-image: url(/qlc/Public/images/slider/bg2.png)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -101,7 +101,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo C('IMG_URL'); ?>slider/img2.png" class="img-responsive">
+                                    <img src="/qlc/Public/images/slider/img2.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(<?php echo C('IMG_URL'); ?>slider/bg3.jpg)">
+                <div class="item" style="background-image: url(/qlc/Public/images/slider/bg3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -121,7 +121,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo C('IMG_URL'); ?>slider/img3.png" class="img-responsive">
+                                    <img src="/qlc/Public/images/slider/img3.png" class="img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -147,12 +147,12 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item1.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item1.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题1(链接)</a> </h3>
                                 <p>标题1 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -160,12 +160,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item2.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item2.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题2(链接)</a></h3>
                                 <p>标题2 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -173,12 +173,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item3.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item3.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题3(链接) </a></h3>
                                 <p>标题3 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -186,12 +186,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item4.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item4.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题4(链接) </a></h3>
                                 <p>标题4 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -199,12 +199,12 @@
                 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item5.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item5.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题5(链接)</a></h3>
                                 <p>标题5 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -212,12 +212,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item6.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item6.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题6(链接) </a></h3>
                                 <p>标题6 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -225,12 +225,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item7.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item7.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题7(链接) </a></h3>
                                 <p>标题7 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -238,12 +238,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>portfolio/recent/item8.png" alt="">
+                        <img class="img-responsive" src="/qlc/Public/images/portfolio/recent/item8.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">标题8 </a></h3>
                                 <p>标题8 的说明文字</p>
-                                <a class="preview" href="<?php echo C('IMG_URL'); ?>portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
+                                <a class="preview" href="/qlc/Public/images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> 更多(链接)</a>
                             </div> 
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services1.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services1.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明1</h3>
@@ -276,7 +276,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services1.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services1.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明2</h3>
@@ -288,7 +288,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services1.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services1.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明3</h3>
@@ -300,7 +300,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services6.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services6.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明4</h3>
@@ -312,7 +312,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services6.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services6.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明5</h3>
@@ -324,7 +324,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>services/services6.png">
+                            <img class="img-responsive" src="/qlc/Public/images/services/services6.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">图标说明6</h3>
@@ -402,7 +402,7 @@
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                         <div class="pull-left">
-                                            <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>accordion1.png">
+                                            <img class="img-responsive" src="/qlc/Public/images/accordion1.png">
                                         </div>
                                         <div class="media-body">
                                              <h4>面板1 -> 标题</h4>
@@ -489,7 +489,7 @@
                                     <div class="tab-pane fade" id="tab1">
                                         <div class="media">
                                            <div class="pull-left">
-                                                <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>tab2.png">
+                                                <img class="img-responsive" src="/qlc/Public/images/tab2.png">
                                             </div>
                                             <div class="media-body">
                                                  <h2>选项卡1 包含的内容</h2>
@@ -501,7 +501,7 @@
                                      <div class="tab-pane fade active in" id="tab2">
                                         <div class="media">
                                            <div class="pull-left">
-                                                <img class="img-responsive" src="<?php echo C('IMG_URL'); ?>tab1.png">
+                                                <img class="img-responsive" src="/qlc/Public/images/tab1.png">
                                             </div>
                                             <div class="media-body">
                                                  <h2>选项卡2 包含的内容</h2>
@@ -533,7 +533,7 @@
                         <h2>选项卡右侧标题</h2>
                          <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="<?php echo C('IMG_URL'); ?>testimonials1.png">
+                                <img class="img-responsive img-circle" src="/qlc/Public/images/testimonials1.png">
                             </div>
                             <div class="media-body">
                                 <p>选项卡右侧上</p>
@@ -543,7 +543,7 @@
 
                          <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="<?php echo C('IMG_URL'); ?>testimonials1.png">
+                                <img class="img-responsive img-circle" src="/qlc/Public/images/testimonials1.png">
                             </div>
                             <div class="media-body">
                                 <p>选项卡右侧下</p>
@@ -626,11 +626,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="<?php echo C('JS_URL'); ?>jquery.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>bootstrap.min.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>jquery.prettyPhoto.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>jquery.isotope.min.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>main.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>wow.min.js"></script>
+    <script src="/qlc/Public/js/jquery.js"></script>
+    <script src="/qlc/Public/js/bootstrap.min.js"></script>
+    <script src="/qlc/Public/js/jquery.prettyPhoto.js"></script>
+    <script src="/qlc/Public/js/jquery.isotope.min.js"></script>
+    <script src="/qlc/Public/js/main.js"></script>
+    <script src="/qlc/Public/js/wow.min.js"></script>
 </body>
 </html>
