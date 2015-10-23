@@ -7,11 +7,11 @@
 function getAddress()
 {
     return array(
-        'index' => U('Home/Index/index', '', true, true),
-        'chart' => U('Home/Chart/index', '', true, true),
-        'quickstart' => U('Home/Quickstart/index', '', true, true),
-        'analysis' => U('Home/Analysis/index', '', true, true),
-        'testing' => U('Home/Testing/index', '', true, true)
+        'index' => U('Home/Index/index', '', false, true),
+        'chart' => U('Home/Chart/index', '', false, true),
+        'quickstart' => U('Home/Quickstart/index', '', false, true),
+        'analysis' => U('Home/Analysis/index', '', false, true),
+        'testing' => U('Home/Testing/index', '', false, true)
     );    
 }
 

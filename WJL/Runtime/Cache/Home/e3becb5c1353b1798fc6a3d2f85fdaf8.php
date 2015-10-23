@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -46,11 +46,11 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="{$address.index}">首页</a></li>
-                        <li><a href="{$address.chart}">走势图</a></li>
-                        <li><a href="{$address.quickstart}">使用流程</a></li>
-                        <li><a href="{$address.testing}">概率测试</a></li>
-                        <li class="active"><a href="{$address.analysis}">分析计算</a></li>                       
+                        <li><a href="<?php echo ($address["index"]); ?>">首页</a></li>
+                        <li><a href="<?php echo ($address["chart"]); ?>">走势图</a></li>
+                        <li><a href="<?php echo ($address["quickstart"]); ?>">使用流程</a></li>
+                        <li><a href="<?php echo ($address["testing"]); ?>">概率测试</a></li>
+                        <li class="active"><a href="<?php echo ($address["analysis"]); ?>">分析计算</a></li>                       
                     </ul>
                 </div>
             </div><!--/.container-->
