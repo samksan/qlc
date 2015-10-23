@@ -67,7 +67,7 @@ function numbersFormat($numbers){
 
         // 字符串头部
         $temp = '';
-        $temp = '<tr>'.'<td>'.$number['qh'].'</td>'.'<td class="tdbg_1 thide"><strong class="rednum">'.$number['n1'].' '.$number['n2'].' '.$number['n3'].' '.$number['n4'].' '.$number['n5'].' '.$number['n6'].' '.$number['n7'].'</strong></td>';
+        $temp = '<tr>'.'<td>'.$number['qh'].'</td>';
 
         // 30个单元格
         $n = array();

@@ -88,12 +88,10 @@
 				<div class="row">
 					<div class="textcenter">
 						<div id="chart-tab" class="chart-tab nonum">
-							<table width="100%" class="chart-table">
+							<table width="100%" class="table text-center table-hover">
 								<thead class="zhzs">
 									<tr>
-										<td class=" w2_0">期号</td>
-										<td class=" w2_0">奖号</td>
-									
+										<td class=" w2_0">期号</td>									
 										<td class=" w2_0">01</td>
 										<td class=" w2_0">02</td>
 										<td class=" w2_0">03</td>
