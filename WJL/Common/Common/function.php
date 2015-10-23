@@ -14,3 +14,12 @@ function getAddress()
         'testing' => U('Home/Testing/index', '', true, true)
     );    
 }
+
+/**
+ * 开奖号码经过处理返回表格形式的数组
+ * @param array $numbers 二维数组(从数据库返回的查询结果-开奖号码)
+ * array(array('qh','n1','n2','n3','n4','n5','n6','n7'),array(),...)
+ */
+function numbersFormat($numbers){
+    
+}
