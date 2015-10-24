@@ -8,22 +8,22 @@
     <title>Home | Corlate</title>
 	
 	<!-- core CSS -->
-    <link href="<?php echo C('CSS_URL'); ?>bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>animate.min.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>main.css" rel="stylesheet">
-    <link href="<?php echo C('CSS_URL'); ?>responsive.css" rel="stylesheet">
+    <link href="/qlc/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/animate.min.css" rel="stylesheet">
+    <link href="/qlc/Public/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/qlc/Public/css/main.css" rel="stylesheet">
+    <link href="/qlc/Public/css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="<?php echo C('JS_URL'); ?>html5shiv.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>respond.min.js"></script>
+    <script src="/qlc/Public/js/html5shiv.js"></script>
+    <script src="/qlc/Public/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="<?php echo C('IMG_URL'); ?>ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo C('IMG_URL'); ?>ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/qlc/Public/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/qlc/Public/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/qlc/Public/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/qlc/Public/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/qlc/Public/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body class="homepage">
@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo C('IMG_URL'); ?>logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="/qlc/Public/images/logo.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
@@ -179,11 +179,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="<?php echo C('JS_URL'); ?>jquery.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>bootstrap.min.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>jquery.prettyPhoto.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>jquery.isotope.min.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>main.js"></script>
-    <script src="<?php echo C('JS_URL'); ?>wow.min.js"></script>
+    <script src="/qlc/Public/js/jquery.js"></script>
+    <script src="/qlc/Public/js/bootstrap.min.js"></script>
+    <script src="/qlc/Public/js/jquery.prettyPhoto.js"></script>
+    <script src="/qlc/Public/js/jquery.isotope.min.js"></script>
+    <script src="/qlc/Public/js/main.js"></script>
+    <script src="/qlc/Public/js/wow.min.js"></script>
 </body>
 </html>

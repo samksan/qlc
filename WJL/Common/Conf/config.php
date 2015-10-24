@@ -12,9 +12,9 @@ return array(
     'DB_PREFIX'             =>  'qlc_',         // 数据库表前缀
     
     /* 静态文件路径 */
-    'CSS_URL'               =>  '/qlc/Public/css/',
-    'IMG_URL'               =>  '/qlc/Public/images/',
-    'JS_URL'                =>  '/qlc/Public/js/',
+    // 'CSS_URL'               =>  '/qlc/Public/css/',
+    // 'IMG_URL'               =>  '/qlc/Public/images/',
+    // 'JS_URL'                =>  '/qlc/Public/js/',
     
     
 );

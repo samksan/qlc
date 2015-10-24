@@ -5,14 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<style type="text/css" media="screen">
-	table{
-		border:solid 1px #999999;
-	}
-	td{
-		border:solid 1px;
-	}
-</style>
 <title>Home | Corlate</title>
 
 <!-- core CSS -->
@@ -83,12 +75,21 @@
 		<div class="center">
 			<h2><a href="http://chart.cp.360.cn/zst/qlc" "360彩票网" target="_blank">七乐彩走势图</a></h2>
 		</div>
+		<div class="container">
+			<div class="row">
+			    <form class="form-inline" method="post">
+					<input type="number" action="<?php echo U('Home/Chart/index','',false,true)?>" name="numbers" class="input" placeholder="输入需要查看的期数">			
+					<button type="submit" class="btn btn-success">Go</button>
+    			</form>
+		    </div>
+		</div>
+		<!--/.container-->
 		<div>
 			<div class="container">
 				<div class="row">
 					<div class="textcenter">
 						<div id="chart-tab" class="chart-tab nonum">
-							<table width="100%" class="table text-center table-hover">
+							<table width="100%" class="table table-bordered text-center table-hover">
 								<thead class="zhzs">
 									<tr>
 										<td class=" w2_0">期号</td>									

@@ -2,11 +2,15 @@
 namespace Home\Controller;
 use Think\Controller;
 class ChartController extends Controller{
-    public function index($nums = 30){
+    public function index(){
         echo 'Moudle: Home'.'<br />';
         echo 'Controller: Chart'.'<br />';
-        echo 'Action: index'.'<br />';
+        echo 'Action: index'.'<br />';       
         
+        $nums = I('numbers');
+        if(I('numbers')<=0){
+            $nums = 15;
+        }
         // 链接地址
         $links = getAddress();        
         $this->assign('address',$links);
