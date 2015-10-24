@@ -93,40 +93,40 @@
 		
 		<div class="container">
 			<div class="row">
-				<table class="table table-bordered text-center table-hover">
+				<table class="table table-bordered text-center table-hover table-condensed">
 					<thead>
 						<tr>
 							<th style="text-align:center">期号</th>									
-							<th>00</th>
-							<th>01</th>
-							<th>03</th>
-							<th>04</th>
-							<th>05</th>
-							<th>06</th>
-							<th>07</th>
-							<th>08</th>
-							<th>09</th>
-							<th>10</th>
-							<th>11</th>
-							<th>12</th>
-							<th>13</th>
-							<th>14</th>
-							<th>15</th>
-							<th>16</th>
-							<th>17</th>
-							<th>18</th>
-							<th>19</th>
-							<th>20</th>
-							<th>21</th>
-							<th>22</th>
-							<th>23</th>
-							<th>24</th>
-							<th>25</th>
-							<th>26</th>
-							<th>27</th>
-							<th>28</th>
-							<th>29</th>
-							<th>30</th>
+							<th style="text-align:center">00</th>
+							<th style="text-align:center">01</th>
+							<th style="text-align:center">03</th>
+							<th style="text-align:center">04</th>
+							<th style="text-align:center">05</th>
+							<th style="text-align:center">06</th>
+							<th style="text-align:center">07</th>
+							<th style="text-align:center">08</th>
+							<th style="text-align:center">09</th>
+							<th style="text-align:center">10</th>
+							<th style="text-align:center">11</th>
+							<th style="text-align:center">12</th>
+							<th style="text-align:center">13</th>
+							<th style="text-align:center">14</th>
+							<th style="text-align:center">15</th>
+							<th style="text-align:center">16</th>
+							<th style="text-align:center">17</th>
+							<th style="text-align:center">18</th>
+							<th style="text-align:center">19</th>
+							<th style="text-align:center">20</th>
+							<th style="text-align:center">21</th>
+							<th style="text-align:center">22</th>
+							<th style="text-align:center">23</th>
+							<th style="text-align:center">24</th>
+							<th style="text-align:center">25</th>
+							<th style="text-align:center">26</th>
+							<th style="text-align:center">27</th>
+							<th style="text-align:center">28</th>
+							<th style="text-align:center">29</th>
+							<th style="text-align:center">30</th>
 						</tr>
 					</thead>
 					<tbody>
