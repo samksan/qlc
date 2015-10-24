@@ -75,13 +75,19 @@
 		<div class="center">
 			<h2><a href="http://chart.cp.360.cn/zst/qlc" "360彩票网" target="_blank">七乐彩走势图</a></h2>
 		</div>
-		<div class="container">
+		<div class="container">			
 			<div class="row">
-			    <form class="form-inline" method="post">
-					<input type="number" action="<?php echo U('Home/Chart/index','',false,true)?>" name="numbers" class="input" placeholder="输入需要查看的期数">			
-					<button type="submit" class="btn btn-success">Go</button>
-    			</form>
-		    </div>
+				<div style="width:30%">
+					<form action="" method="post">
+						<div class="input-group">						
+							<input type="number" class="form-control" placeholder="期数" name="numbers">
+							<span class="input-group-btn">
+								<button class="btn btn-success" type="submit">Go!</button>
+							</span>
+						</div>
+					</form>
+				</div>						
+			</div><!-- /.row -->
 		</div>
 		<!--/.container-->
 		<div>
