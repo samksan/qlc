@@ -80,7 +80,7 @@
 				<div style="width:30%">
 					<form action="" method="post">
 						<div class="input-group">						
-							<input type="number" class="form-control" placeholder="期数" name="numbers">
+							<input type="text" class="form-control" placeholder="期数" name="numbers">
 							<span class="input-group-btn">
 								<button class="btn btn-success" type="submit">Go!</button>
 							</span>
@@ -90,57 +90,53 @@
 			</div><!-- /.row -->
 		</div>
 		<!--/.container-->
-		<div>
-			<div class="container">
-				<div class="row">
-					<div class="textcenter">
-						<div id="chart-tab" class="chart-tab nonum">
-							<table width="100%" class="table table-bordered text-center table-hover">
-								<thead class="zhzs">
-									<tr>
-										<td class=" w2_0">期号</td>									
-										<td class=" w2_0">01</td>
-										<td class=" w2_0">02</td>
-										<td class=" w2_0">03</td>
-										<td class=" w2_0">04</td>
-										<td class=" w2_0">05</td>
-										<td class=" w2_0">06</td>
-										<td class=" w2_0">07</td>
-										<td class=" w2_0">08</td>
-										<td class=" w2_0">09</td>
-										<td class=" w2_0">10</td>
-										<td class=" w2_0">11</td>
-										<td class=" w2_0">12</td>
-										<td class=" w2_0">13</td>
-										<td class=" w2_0">14</td>
-										<td class=" w2_0">15</td>
-										<!-- <td class="tdbdr  tdbdr_nav"></td> -->
-										<td class=" w2_0">16</td>
-										<td class=" w2_0">17</td>
-										<td class=" w2_0">18</td>
-										<td class=" w2_0">19</td>
-										<td class=" w2_0">20</td>
-										<td class=" w2_0">21</td>
-										<td class=" w2_0">22</td>
-										<td class=" w2_0">23</td>
-										<td class=" w2_0">24</td>
-										<td class=" w2_0">25</td>
-										<td class=" w2_0">26</td>
-										<td class=" w2_0">27</td>
-										<td class=" w2_0">28</td>
-										<td class=" w2_0">29</td>
-										<td class=" w2_0">30</td>
-									</tr>
-								</thead>
-								<tbody class="zzhzs" id="data-tab">
-									<?php if(is_array($kjh)): $i = 0; $__LIST__ = $kjh;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; echo ($vo); endforeach; endif; else: echo "" ;endif; ?>									
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
+		
+		<div class="container">
+			<div class="row">
+				<table class="table table-bordered text-center table-hover table-responsive">
+					<thead>
+						<tr>
+							<td><strong>期号</strong></td>									
+							<td><strong>00</strong></td>
+							<td><strong>01</strong></td>
+							<td><strong>03</strong></td>
+							<td><strong>04</strong></td>
+							<td><strong>05</strong></td>
+							<td><strong>06</strong></td>
+							<td><strong>07</strong></td>
+							<td><strong>08</strong></td>
+							<td><strong>09</strong></td>
+							<td><strong>10</strong></td>
+							<td><strong>11</strong></td>
+							<td><strong>12</strong></td>
+							<td><strong>13</strong></td>
+							<td><strong>14</strong></td>
+							<td><strong>15</strong></td>
+							<td><strong>16</strong></td>
+							<td><strong>17</strong></td>
+							<td><strong>18</strong></td>
+							<td><strong>19</strong></td>
+							<td><strong>20</strong></td>
+							<td><strong>21</strong></td>
+							<td><strong>22</strong></td>
+							<td><strong>23</strong></td>
+							<td><strong>24</strong></td>
+							<td><strong>25</strong></td>
+							<td><strong>26</strong></td>
+							<td><strong>27</strong></td>
+							<td><strong>28</strong></td>
+							<td><strong>29</strong></td>
+							<td><strong>30</strong></td>
+						</tr>
+					</thead>
+					<tbody>
+						<?php if(is_array($kjh)): $i = 0; $__LIST__ = $kjh;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; echo ($vo); endforeach; endif; else: echo "" ;endif; ?>									
+					</tbody>
+				</table>
 			</div>
+			<!--/.row-->
 		</div>
+		<!--/.container-->
 	</section>
 	<!--/gmap_area -->
 
